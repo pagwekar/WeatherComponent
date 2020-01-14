@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   <types>
+        <members>weatherComponent</members>	       
+        <name>LightningComponentBundle</name>
+    </types>   
+    <types>
+        <members>GetWeatherClass</members>
+        <members>WeatherResponseWrapper</members>
+        <members>CallOutMock</members>
+        <members>GetWeatherClassTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>IntegrationSetting.weatherApiKeys</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>IntegrationSetting__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>WeatherApp</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+ <version>47.0</version>
+</Package>

@@ -1,0 +1,10 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Hows The Heat!!" icon-name="custom:custom3">            
+                <div class="slds-p-horizontal_small slds-brand-band slds-brand-band_small">
+                    <lightning-input onchange={handleLocationChange} name="locationInput" value= "{locationStr}" placeholder="Enter your location"></lightning-input>
+                    <div class="slds-text-align_center slds-var-p-around_medium">
+                        <p><lightning-formatted-text class="slds-text-heading_large" value= "{weatherStr}"></lightning-formatted-text></p>
+                    </div>
+                </div>
+    </lightning-card>
+</template>
