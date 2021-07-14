@@ -1,5 +1,5 @@
 public class GetWeatherClass {
-    //Method to Perform Callout to Weather API
+    //Method to Perform Callout to Weather APIdd
     @AuraEnabled
     public static string getWeatherData(string locationStr){
         try{

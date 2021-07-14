@@ -5,8 +5,8 @@
 # Salesforce cache
 .sfdx/
 .localdevserver/
-.package
-.destructiveChanges
+.package/
+.destructiveChanges/
 
 # Logs
 logs
