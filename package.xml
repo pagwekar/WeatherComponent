@@ -8,6 +8,7 @@
         <members>GetWeatherClass</members>
         <members>WeatherResponseWrapper</members>
         <members>CallOutMock</members>
+        <members>CalloutHelper</members>
         <members>GetWeatherClassTest</members>
         <name>ApexClass</name>
     </types>
